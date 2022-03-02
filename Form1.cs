@@ -24,5 +24,16 @@ namespace Metody_04_08_GitHub
             string vysledek = CelaCisla.Mocnina(x, y);
             MessageBox.Show("Mocnina je " + vysledek);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox3.Text);
+            MessageBox.Show("Faktoriál je " + CelaCisla.faktorial(x));
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
