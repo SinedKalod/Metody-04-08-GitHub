@@ -48,5 +48,22 @@ namespace Metody_04_08_GitHub
                 return faktorial;
             }
         }
+
+        public static int CifLichSoucet(int x)
+        {
+            int CifLichSoucet = 0;
+            while (x > 0)
+            {
+                int cifra = x % 10;
+                if (cifra % 2 != 0)
+                {
+                    CifLichSoucet += cifra;
+                }
+
+                x = x / 10;
+            }
+
+            return CifLichSoucet;
+        }
     }
 }

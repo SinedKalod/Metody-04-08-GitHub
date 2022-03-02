@@ -33,7 +33,8 @@ namespace Metody_04_08_GitHub
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            int x = int.Parse(textBox3.Text);
+            MessageBox.Show("Součet lichých cifer je " + CelaCisla.CifLichSoucet(x));
         }
     }
 }
