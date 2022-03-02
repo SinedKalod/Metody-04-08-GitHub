@@ -36,5 +36,12 @@ namespace Metody_04_08_GitHub
             int x = int.Parse(textBox3.Text);
             MessageBox.Show("Součet lichých cifer je " + CelaCisla.CifLichSoucet(x));
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox3.Text);
+            if (CelaCisla.JePrvocislo(x)) MessageBox.Show("Číslo " + x + " je prvočíslo");
+            else MessageBox.Show("Číslo " + x + " není prvočíslo");
+        }
     }
 }
