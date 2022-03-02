@@ -127,6 +127,7 @@
             this.button5.TabIndex = 9;
             this.button5.Text = "PocetDeliteluSud";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 

@@ -43,5 +43,11 @@ namespace Metody_04_08_GitHub
             if (CelaCisla.JePrvocislo(x)) MessageBox.Show("Číslo " + x + " je prvočíslo");
             else MessageBox.Show("Číslo " + x + " není prvočíslo");
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox3.Text);
+            MessageBox.Show("Počet sudých dělitelů je " + CelaCisla.PocetSudDelitelu(x));
+        }
     }
 }
