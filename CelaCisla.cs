@@ -51,19 +51,19 @@ namespace Metody_04_08_GitHub
 
         public static int CifLichSoucet(int x)
         {
-            int CifLichSoucet = 0;
+            int LichSoucetCif = 0;
+            int cifra = x % 10;
             while (x > 0)
-            {
-                int cifra = x % 10;
+            {   
                 if (cifra % 2 != 0)
                 {
-                    CifLichSoucet += cifra;
+                    LichSoucetCif += cifra;
                 }
 
                 x = x / 10;
             }
 
-            return CifLichSoucet;
+            return LichSoucetCif;
         }
 
         public static bool JePrvocislo(int x)
